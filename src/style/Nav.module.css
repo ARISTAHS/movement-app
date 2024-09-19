@@ -1,0 +1,17 @@
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav li{
+  width: 120px;
+  height: 100px;
+  text-align: center;
+}
+.nav li a{
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
