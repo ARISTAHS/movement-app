@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from './Home';
-import LogExercise from './LogExercise';
-import Statistics from './Statistics';
-import Settings from './Settings';
+import Home from './Content/Home';
+import LogExercise from './Content/LogExercise';
+import Statistics from './Content/Statistics';
+import Settings from './Content/Settings';
 
 function Content(){
   return(
