@@ -12,8 +12,6 @@ function Nav(){
         <li><Link to="/Statistics">Statistics</Link></li>
         <li><Link to="/Settings">Settings</Link></li>
       </ul>
-
-      
     </>
   );
 }

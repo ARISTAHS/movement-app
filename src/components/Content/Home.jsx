@@ -1,7 +1,9 @@
+import styles from '../../style/Content/Home.module.css';
+
 function Home(){
   return(
     <>
-      <h2>Home 입니다. 화면 표시용 테스트</h2>
+      <h2 className={styles.title}>Home 입니다. 화면 표시용 테스트</h2>
     </>
   );
 }
