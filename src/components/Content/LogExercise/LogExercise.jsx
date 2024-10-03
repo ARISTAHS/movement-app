@@ -1,3 +1,5 @@
+import styles from './LogExercise.module.css';
+
 function LogExercise(){
   return(
     <>

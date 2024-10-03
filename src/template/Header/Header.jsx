@@ -1,5 +1,5 @@
 // import '../style/Header.css';
-import styles from '../style/Header.module.css'
+import styles from './Header.module.css'
 
 
 function Header() {

@@ -1,9 +1,9 @@
-import styles from '../style/Content.module.css';
+import styles from './Content.module.css';
 import { Routes, Route } from 'react-router-dom';
-import Home from './Content/Home';
-import LogExercise from './Content/LogExercise';
-import Statistics from './Content/Statistics';
-import Settings from './Content/Settings';
+import Home from './Home/Home';
+import LogExercise from './LogExercise/LogExercise';
+import Statistics from './Statistics/Statistics';
+import Settings from './Settings/Settings';
 
 function Content(){
   return(

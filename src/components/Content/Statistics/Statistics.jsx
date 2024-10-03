@@ -1,3 +1,5 @@
+import styles from './Statistics.module.css';
+
 function Statistics(){
   return(
     <>
