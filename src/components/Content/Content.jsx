@@ -8,7 +8,7 @@ import ErrorPage from '../Error/ErrorPage';
 
 function Content(){
   return(
-    <div id={styles.wrap}>
+    <div className={styles.content_wrap}>
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/LogExercise' element={<LogExercise />}></Route>
