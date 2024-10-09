@@ -21,7 +21,7 @@ function Header() {
       </ul>
 
       <div className={styles.login}>
-        <Link to="/login">
+        <Link to="/Auth">
           <box-icon 
           type='regular'
           name='user'></box-icon><span>로그인</span>

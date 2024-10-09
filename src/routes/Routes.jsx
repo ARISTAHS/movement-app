@@ -5,7 +5,7 @@ import LogExercise from '../components/Content/LogExercise/LogExercise';
 import Statistics from '../components/Content/Statistics/Statistics';
 import Settings from '../components/Content/Settings/Settings';
 import ErrorPage from '../components/Error/ErrorPage';
-import LoginPage from '../components/Login/Login';
+import Auth from '../components/Auth/Auth';
 
 function RoutesPage(){
   return(
@@ -15,7 +15,7 @@ function RoutesPage(){
       <Route path='/Statistics' element={<Statistics />}></Route>
       <Route path='/Settings' element={<Settings />}></Route>
       <Route path="*" element={<ErrorPage />} />
-      <Route path='/login' element={<LoginPage />}></Route>
+      <Route path='/Auth' element={<Auth />}></Route>
     </Routes>
   );
 }
