@@ -1,6 +1,6 @@
 import Header from './template/Header/Header.jsx';
 // import Nav from './template/Nav/Nav.jsx';
-import Content from './components/Content/Content.jsx';
+import RoutesPage from './routes/Routes.jsx';
 import Footer from './template/Footer/Footer.jsx';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div id='wrap'>
       <Header></Header>
       {/* <Nav></Nav> */}
-      <Content></Content>
+      <RoutesPage></RoutesPage>
       <Footer></Footer>
     </div>
 

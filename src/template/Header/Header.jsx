@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import LogoImg from '../../assets/fencing_logo.png';
 import 'boxicons';
 
-
 function Header() {
   return(
     <header className={styles.header}>
