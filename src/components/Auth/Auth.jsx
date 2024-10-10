@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 export default function Auth(){
 
-  const [login, setLogin] = useState(true); //false : 회원가입(Sign)
+  // const [login, setLogin] = useState(true); //false : 회원가입(Sign)
 
   // const handleBtn()=>{
   //   setLogin(prevState => !prevState);
@@ -16,11 +16,12 @@ export default function Auth(){
 
   return(
     <>
-      {login ? (<LoginForm/>) : (<SignForm/>)}
+      {/* {login ? (<LoginForm/>) : (<SignForm/>)}
 
       <button >
         {login ? "회원가입 바로가기" : "로그인 하기"}
-      </button>
+      </button> */}
+      <LoginForm></LoginForm>
     </>
   );
 }
